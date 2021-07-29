@@ -2,6 +2,10 @@
 
 The goal of this repo is to practice the usage of the strategy pattern
 
+# REFERENCE
+
+https://www.youtube.com/watch?v=DAnhRjEEHMI&ab_channel=DevSoutinho
+
 # STRATEGY PATTERN
 
 *Strategy Pattern is a way to not need to change the base component but change some behaviour dynamically from the ouside*
