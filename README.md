@@ -11,15 +11,15 @@ The goal of this repo is to practice the usage of the strategy pattern
 ```jsx
 class Gol {
   autonomia(...) {
-		// ...
-		return 9.0;
+    // ...
+    return 9.0;
   }
 }
 
 class Polo {
   autonomia(...) {
-		// ...
-		return 8.0;
+    // ...
+    return 8.0;
   }
 }
 
@@ -32,15 +32,15 @@ polo.autonomia();
 
 // w/ strategy
 class Autonomia {
-	this.veiculo = null;
+  this.veiculo = null;
 
-	definirVeiculo(veiculo) {
-		this.veiculo = veiculo
-	}
+  definirVeiculo(veiculo) {
+    this.veiculo = veiculo
+  }
 
-	calcular(...) {
-		return this.veiculo.autonomia(...);
-	}
+  calcular(...) {
+    return this.veiculo.autonomia(...);
+  }
 }
 
 const autonomia = new Autonomia();
