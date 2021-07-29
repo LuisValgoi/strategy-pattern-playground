@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import SocialShareButton from "../components/social-share-button";
-import { HomeSocialShareProviders } from "./home-provider";
+
+import SocialShareButton from "../../components/social-share-button";
+import { HomeSocialShareProviders } from "./provider";
 
 const Title = styled.h1``;
 const List = styled.ul``;
