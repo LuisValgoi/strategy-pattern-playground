@@ -77,21 +77,21 @@ Component should be highly composable and extendible.
 - Are concerned with *only* *how things look*.
 - Often only use *props.children*
 
-*`h1, section, div, span, Icon*(may contain className, and accessibility attributes)`
+**`h1, section, div, span, Icon*(may contain className, and accessibility attributes)`**
 
 # PRESENTATIONAL
 
 - Are concerned with *how things look*.
 - Receive data and callbacks exclusively via props.
 
-*`Avatar, Info, List`*
+**`Avatar, Info, List`**
 
 # CONTAINER PRESENTER
 
 - Are concerned with *how things look*
 - Can have lifecycle methods
 
-*`UserPagePresenter, UserListPresenter`*
+**`UserPagePresenter, UserListPresenter`**
 
 # CONTAINER COMPONENTS
 
@@ -99,4 +99,4 @@ Component should be highly composable and extendible.
 - Often connected to the redux or have own state
 - Provide the data and behavior to presentational or other container components.
 
-*`UserPage, UserList`*
+**`UserPage, UserList`**
